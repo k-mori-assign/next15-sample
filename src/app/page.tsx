@@ -32,6 +32,12 @@ export default async function HomePage() {
                 
                 <div className="flex justify-center space-x-4">
                   <Link
+                    href="/chat"
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
+                  >
+                    チャットを開く
+                  </Link>
+                  <Link
                     href="/profile"
                     className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                   >
